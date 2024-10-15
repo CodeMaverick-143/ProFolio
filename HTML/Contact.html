@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Courier New', Courier, monospace;
+        background-color: black;
+        color: #00ff00;
+    }
+
+    header {
+        text-align: center;
+        padding: 20px 0;
+        border-bottom: 1px solid #00ff00;
+        margin-bottom: 20px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .details-section {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 1px solid #00ff00;
+        padding: 40px;
+        border-radius: 10px;
+        max-width: 800px;
+        width: 100%;
+        box-shadow: 0 4px 12px rgba(0, 255, 0, 0.2);
+    }
+
+    .details-section img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 2px solid #00ff00;
+    }
+
+    .details-text {
+        max-width: 600px;
+    }
+
+    .details-text h2 {
+        margin-bottom: 20px;
+        font-size: 28px;
+    }
+
+    .details-text p {
+        line-height: 1.6;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .social-media {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .social-media a {
+        color: #00ff00;
+        text-decoration: none;
+        font-size: 18px;
+        border: 1px solid #00ff00;
+        padding: 10px;
+        border-radius: 20px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .social-media a:hover {
+        background-color: #00ff00;
+        color: black;
+    }
+
+    .back-btn {
+        display: inline-block;
+        padding: 10px 25px;
+        margin-top: 40px;
+        color: #00ff00;
+        background-color: transparent;
+        border: 1px solid #00ff00;
+        border-radius: 5px;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .back-btn:hover {
+        background-color: #00ff00;
+        color: black;
+    }
+
+    footer {
+        text-align: center;
+        padding: 15px;
+        border-top: 1px solid #00ff00;
+        margin-top: 40px;
+        font-size: 14px;
+    }
+</style>
+<body>
+    <header>
+        <h1>My Details</h1>
+    </header>
+
+    <main>
+        <!-- Details Section -->
+        <section class="details-section">
+            <img src="/images/my_img.png" alt="Profile Picture">
+            <div class="details-text">
+                <h2><u><b>Arpit Sarang</b></u></h2>
+                <p>I'm a developer who loves exploring new technologies and solving real-world problems through coding. Check out my social profiles below for more updates and projects.</p>
+                <pre>
+•Email : arpitsarang2020@gmail.com    •Phone : +91 9341741017
+                </pre>
+            </div>
+        </section>
+
+        <!-- Social Media Links -->
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/arpit-sarang-ab0b63320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+            <a href="https://github.com/CodeMaverick-143" target="_blank">GitHub</a>
+            <a href="https://www.codechef.com/users/code_maverick0" target="_blank">CodeChef</a>
+            <a href="https://codeforces.com/profile/CodeMaverick-143" target="_blank">Codeforces</a>
+            <a href="https://www.hackerrank.com/profile/CodeMaverick_143" target="_blank">HackerRank</a>
+            <a href="https://leetcode.com/u/codemaverick-143/" target="_blank">LeetCode</a>
+        </div>
+
+        <!-- Back Button -->
+        <a href="/HTML/Home.html" class="back-btn">Back to Home</a>
+    </main>
+
+    <footer>
+        <p>&copy; Sarangtech: All rights reserved</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Courier New', Courier, monospace;
+        background-color: black; 
+        color: #00ff00;
+    }
+
+    header {
+        text-align: center;
+        padding: 10px 0;
+        border-bottom: 1px solid #00ff00;
+        margin-bottom: 20px;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        padding: 20px;
+    }
+
+    .about-section {
+        background-color: rgba(0, 0, 0, 0.6);
+        border: 1px solid #00ff00;
+        padding: 40px;
+        border-radius: 10px;
+        max-width: 700px;
+        text-align: left;
+        box-shadow: 0 4px 12px rgba(0, 255, 0, 0.2);
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .about-section:hover {
+        transform: scale(1.02);
+        box-shadow: 0 6px 15px rgba(0, 255, 0, 0.5);
+    }
+
+    .about-section h2 {
+        margin-bottom: 20px;
+        font-size: 28px;
+    }
+
+    .about-section p {
+        line-height: 1.6;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .back-btn {
+        display: inline-block;
+        padding: 10px 25px;
+        margin-top: 20px;
+        color: #00ff00;
+        background-color: transparent;
+        border: 1px solid #00ff00;
+        border-radius: 5px;
+        text-decoration: none;
+        font-family: 'Courier New', Courier, monospace;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .back-btn:hover {
+        background-color: #00ff00;
+        color: black;
+    }
+
+    footer {
+        text-align: center;
+        padding: 15px;
+        border-top: 1px solid #00ff00;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+</style>
+<body>
+    <header>
+        <h1>About Me</h1>
+    </header>
+
+    <main>
+        <section class="about-section">
+            <h2>Hi, I'm Arpit Sarang</h2>
+            <p>
+                I'm a developer with a passion for <strong>coding</strong>, <strong>robotics</strong>, and <strong>web development</strong>. Over the years, I’ve worked on various projects that blend creativity with technology, pushing the boundaries of what’s possible in the digital world.
+            </p>
+            <p>
+                My expertise lies in <strong>HTML, CSS, Python, and C++</strong>. I enjoy tackling new challenges, learning emerging technologies, and collaborating with others on exciting projects. Whether it’s creating sleek web pages or diving deep into algorithms, I’m always driven to improve and innovate.
+            </p>
+            <p>
+                Let's connect if you want to collaborate or explore new tech frontiers together!
+            </p>
+            
+            <!-- Back Button -->
+            <a href="/HTML/Home.html" class="back-btn">Back to Home</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Sarangtech: All rights reserved</p>
+    </footer>
+</body>
+</html>
