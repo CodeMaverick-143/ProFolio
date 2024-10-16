@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="icon" type="image/jpg" href="/images/CodeMaverick.jpeg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Courier New', Courier, monospace;
+        background-color: black; 
+        color: #00ff00;
+    }
+
+    header {
+        text-align: center;
+        padding: 20px;
+        border-bottom: 2px solid #00ff00;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .project {
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 1px solid #00ff00;
+        border-radius: 5px;
+        margin: 20px 0;
+        padding: 15px;
+        box-shadow: 0 2px 5px rgba(0, 255, 0, 0.5);
+    }
+
+    .project h2 {
+        margin-bottom: 10px;
+    }
+
+    .project p {
+        margin-bottom: 10px;
+    }
+
+    .screenshot {
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .screenshot img {
+        width: 200px;
+        height: 200px; 
+        object-fit: cover;
+        transition: transform 0.3s;
+        margin:20px;
+        border-radius: 20%;
+    }
+
+    .screenshot img:hover {
+        transform: scale(1.1);
+        filter: brightness(90%);
+    }
+
+    .back-btn {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-top: 30px;
+        color: #00ff00;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 2px solid #00ff00;
+        border-radius: 5px;
+        font-family: 'Courier New', Courier, monospace;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .back-btn:hover {
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        border-top: 2px solid #00ff00; 
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
+<body>
+    <header>
+        <h1>My Projects</h1>
+    </header>
+
+    <main>
+        <section class="project">
+            <h2>Marvel Movie Phases Webpage</h2>
+            <p>Created an informative webpage showcasing the different phases of Marvel movies, including key details about each film.</p>
+            <p><strong>Technologies:</strong> HTML, CSS</p>
+            <div class="screenshot">
+                <img src="/images/marvel1.png" alt="Marvel Movie Phases Webpage Screenshot">
+                <img src="/images/marvel2.png" alt="Marvel Movie Phases Webpage Screenshot">
+                <img src="/images/marvel3.png" alt="Marvel Movie Phases Webpage Screenshot">
+                <img src="/images/marvel4.png" alt="Marvel Movie Phases Webpage Screenshot">
+            </div>
+        </section>
+
+        <section class="project">
+            <h2>Eco Warrior Game (Scratchathon Project)</h2>
+            <p>Collaborated with a team to create an eco-themed game for a hackathon, focusing on environmental awareness and fun gameplay.</p>
+            <p><strong>Technologies:</strong> Scratch</p>
+            <div class="screenshot">
+                <img src="/images/marvel4.png" alt="Marvel Movie Phases Webpage Screenshot">
+                <img src="/images/marvel4.png" alt="Marvel Movie Phases Webpage Screenshot">
+                <img src="/images/marvel4.png" alt="Marvel Movie Phases Webpage Screenshot">
+                <img src="/images/marvel4.png" alt="Marvel Movie Phases Webpage Screenshot">
+            </div>
+        </section>
+
+        <section class="project">
+            <h2>My First Portfolio</h2>
+            <p>This was my 1st portfolio I made when I was learning how to make a Webpage.</p>
+            <p><strong>Technologies:</strong> HTML & CSS</p>
+            <a href="https://selfsarang143.netlify.app" alt="Portfolio" style="color:#00ff00;">Portfolio</a>
+        </section>
+
+        <!-- Back Button -->
+        <button class="back-btn" onclick="window.location.href='/HTML/Home.html';">Back to Home</button>
+
+    </main>
+
+    <footer>
+        <p>&copy;Sarangtech: All rights reserved</p> 
+    </footer>
+</body>
+</html>
+
