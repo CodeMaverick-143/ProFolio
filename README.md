@@ -47,12 +47,7 @@ Feel free to modify the content, images, or structure to suit your needs. Here a
 - **Change Social Media Links**: Update the links in the **Details Page** section to point to your own social media profiles.
 - **Add Projects**: Add new sections in the `projects.html` file to showcase more of your work.
 
-## Future Improvements
 
-Here are some features I plan to add:
-- A blog section to share my thoughts on technology and projects.
-- Integration with JavaScript to create dynamic effects and animations.
-- Optimization for mobile devices and smaller screen sizes.
 
 
 
