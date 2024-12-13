@@ -54,10 +54,6 @@ Here are some features I plan to add:
 - Integration with JavaScript to create dynamic effects and animations.
 - Optimization for mobile devices and smaller screen sizes.
 
-## License
 
-This portfolio is open-source under the MIT License. Feel free to use, modify, and distribute it as you see fit.
-
----
 
 Thank you for visiting my portfolio! If you have any questions or would like to collaborate, don't hesitate to reach out via my [LinkedIn](https://www.linkedin.com/in/arpit-sarang) or [GitHub](https://github.com/arpit-sarang).
