@@ -51,4 +51,4 @@ Feel free to modify the content, images, or structure to suit your needs. Here a
 
 
 
-Thank you for visiting my portfolio! If you have any questions or would like to collaborate, don't hesitate to reach out via my [LinkedIn](https://www.linkedin.com/in/arpit-sarang) or [GitHub](https://github.com/arpit-sarang).
+Thank you for visiting my portfolio! If you have any questions or would like to collaborate, don't hesitate to reach out via my [LinkedIn](https://www.linkedin.com/in/arpit-sarang).
